@@ -1,9 +1,70 @@
-
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html, body, p, span {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Quantico', sans-serif;
+}
+
+     /* header */
+
+.block-1 {
+    background-image: url(../images/coffee-hero-bg.jpeg);
+    background-position: right center;
+    min-height: 600px;
+}
+
+h1.tex-1 {
+    
+
+}
+
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+
+.nav-bar ul  {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-bar li {
+    display: inline;
+    
+    
+    
+    
+    
+}
+
+.nav-bar a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Quantico', sans-serif;
+    padding-right: 20px;
 }
 
