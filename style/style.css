@@ -18,18 +18,19 @@ h1, h2, h3, h4 {
     background-image: url(../images/coffee-hero-bg.jpeg);
     background-position: right center;
     min-height: 600px;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
 h1.text-1 {
     color: #45230f;
     font-size: 30px;
+    margin-top: 40px;
 }
 
 p.text-2 {
-    color: white;
-    font-size: 20px;
+    color: #45230f;
+    font-size: 15px;
     font-weight: 300;
 
 }
@@ -57,9 +58,9 @@ p.text-2 {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
-    
+    overflow: hidden;
 }
 
 
@@ -71,10 +72,7 @@ p.text-2 {
 
 .nav-bar li {
     display: inline;
-    
-    
-    
-    
+    margin-right: 5px;
     
 }
 
