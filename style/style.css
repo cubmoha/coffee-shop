@@ -20,19 +20,43 @@ h1, h2, h3, h4 {
     min-height: 600px;
     width: 100%;
     margin: auto;
+    overflow: hidden;
+}
+
+.block-2 {
+    background-image: url(../images/coffee-beans-bg.jpeg);
+    min-height: 400px;
+    
+    
 }
 
 h1.text-1 {
     color: #45230f;
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 90px;
 }
 
 p.text-2 {
     color: #45230f;
     font-size: 15px;
     font-weight: 300;
+    margin-top: 10px;
+}
 
+h1.text-3 {
+    color: #ffff;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 40px;
+}
+
+p.text-4 {
+    color: #ffff;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+    line-height: 1.6em;
+    
 }
 
 .button {
@@ -84,4 +108,14 @@ p.text-2 {
     font-family: 'Quantico', sans-serif;
     padding-right: 40px;
 }
+
+
+/* Location  */
+
+
+
+
+/* Media querie Mobile */
+
+    
 
