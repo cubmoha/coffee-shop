@@ -92,9 +92,10 @@ p.text-4 {
 .nav-bar ul  {
     list-style: none;
     padding: 0;
+    overflow: hidden;
 }
 
-.nav-bar li {
+.nav-bar ul li {
     display: inline;
     margin-right: 5px;
     
@@ -106,16 +107,41 @@ p.text-4 {
     font-size: 20px;
     font-weight: 300;
     font-family: 'Quantico', sans-serif;
-    padding-right: 40px;
+    padding: 15px;
+}
+
+ul li a:hover {
+    background-color: cadetblue;
+    color: crimson;
+}
+/* Location  */
+
+ .nav-bar ul li.dropdownIcon  {
+    display: none;
+}
+
+.location {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.all-main {
+    display: flex;
+    justify-content: space-between;
+
 }
 
 
-/* Location  */
+
+.main {
+    padding-left: 30px;
+}
 
 
 
 
-/* Media querie Mobile */
 
-    
+
+/* Media querie Mobile First */
+
 
