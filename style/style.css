@@ -23,15 +23,20 @@ li, a {
     text-decoration: none;
 }
 
-.nav-bar li{
-    display: inline-block;
-    list-style: none;
-    padding-right: 15px;
-}
-
 .nav-bar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.nav-ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+
+.nav-ul li a {
+    text-decoration: none
+    
 }
 
 .showcase {
@@ -41,6 +46,8 @@ li, a {
     min-height: 650px;
 }
 
+
+
 .logo{
     padding: 30px;
 }
@@ -49,13 +56,8 @@ li, a {
     margin-left: 30px;
 }
 
-.container .content-wrap .text-1 {
-    font-family: 'Quantico', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: crimson;
 
-}  
+
 
 
 
