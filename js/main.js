@@ -1,27 +1,12 @@
-//nav toggle - select button and links
+let navbar = document.querySelector('.navbar');
 
-const toggleButton = document.querySelector("#toggle-button")
-const nav = document.querySelector("#nabar-links")
+document.querySelector('#menu-btn').onclick = () =>{
+    navbar.classList.toggle('active');
+}
 
-toggleButton.addEventListener("click" , () => {
-    nav.classList.toggleButton('active')
-})
+let cartItem = document.querySelector('.cart-items-container')
 
+document.querySelector('#menu-btn').onclick = () =>{
+    navbar.classList.toggle('active')
+}
 
-
-
-
-
-
-
-
-
-
-
-// const toggleButton = documment.getElementsByClassName('toggle-button')[0]
-// const navbarLinks =  document.getElementsByClassName('navbar-links')[0]
-
-
-// toggleButton.addEventListener('click', () => {
-// navbarLinks.classList.toggle('active')
-// })
